@@ -1,3 +1,17 @@
+import os
+import sys
+import xmlparser
+import constants as cst
+import manager
+
+
+##path_dir = os.path.join(cst.PATH)
+path_config_file = os.path.join(cst.CONFIG_FILE)
+path_vps = os.path.join(cst.VP_PATH)
+path_output = os.path.join(cst.OUTPUT_FILE)
+
+
+
 def main():
 
     # Instance the manager
